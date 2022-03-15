@@ -1,5 +1,12 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+  .flex-list .abouts-content,
+  .text-abouts,
+  .txt-contents {
+    flex-direction: wrap;
+    /* flex: 50%; */
+  }
+
   .top-wrapper h1 {
     font-size: 32px;
   }
@@ -11,6 +18,16 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  .flex-list .abouts-content,
+  .flex-list .abouts-content .text-abouts,
+  .flex-list .abouts-content .txt-contents {
+    flex-direction: column;
+    width: auto;
+  }
+  .flex-list .abouts-content img {
+    width: 80%;
+  }
+
   .header-right {
     display: none;
   }
