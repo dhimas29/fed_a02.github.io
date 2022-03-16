@@ -62,6 +62,7 @@ a {
   color: #2f2e2e;
   opacity: 0.9;
   font-weight: 200;
+  line-height: 30px;
 }
 
 .top-wrapper .rectangle {
@@ -317,13 +318,13 @@ span.menu-icon {
   display: none;
 }
 
-.container {
-  max-width: 100%;
-}
-
 .row {
   display: flex;
   flex-wrap: wrap;
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 270px;
 }
 
 ul {
@@ -334,9 +335,8 @@ footer {
   background-color: #24262b;
   padding: 60px 60px;
   line-height: 1.5;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   width: 100%;
-  height: 369px;
 }
 
 .footer-col {
@@ -359,7 +359,6 @@ footer {
   text-decoration: none;
   font-weight: 300;
   text-align: justify;
-  padding-right: 30px;
 }
 
 .footer-col ul li a {
@@ -398,5 +397,32 @@ footer {
 
 .maps {
   position: absolute;
-  width: 20%;
+}
+.footer-responsive h4 {
+  font-size: 28px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-weight: 500;
+  position: relative;
+  width:100%;
+  display:none;
+}
+.footer-responsive .social-links-responsive a {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  display:none;
+}
+
+.footer-responsive .social-links-responsive a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+  display:none;
 }
