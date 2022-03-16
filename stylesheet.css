@@ -53,8 +53,6 @@ a {
   background-position: center;
 }
 
-
-
 .top-wrapper h3 {
   margin-top: 220px;
   margin-left: 90px;
@@ -72,10 +70,11 @@ a {
   height: 400px;
   left: 0px;
   top: 200px;
-  background: linear-gradient(91.1deg,
-      rgba(244, 246, 245, 0.9) -7.89%,
-      rgba(255, 255, 255, 0.9) 132.55%);
-
+  background: linear-gradient(
+    91.1deg,
+    rgba(244, 246, 245, 0.9) -7.89%,
+    rgba(255, 255, 255, 0.9) 132.55%
+  );
 }
 
 .top-wrapper p {
@@ -148,7 +147,6 @@ header {
   margin-top: 9px;
 }
 
-
 .menu-icon {
   display: none;
 }
@@ -195,13 +193,13 @@ header {
   width: 100%;
   color: white;
 }
- /* awal desta */
- .clear{
+/* awal desta */
+.clear {
   clear: both;
 }
 
 /* =====MAIN===== */
-.main service{
+.main service {
   width: 660px;
   float: right;
 }
@@ -212,30 +210,30 @@ header {
 .article h1 {
   margin: 0px;
   text-align: center;
-text-shadow: 3px 3px 1px silver;
+  text-shadow: 3px 3px 1px silver;
 }
-.main p, .main hr {
+.main p,
+.main hr {
   width: 100%;
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
   font-size: 15px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: justify;
-
 }
 .article img {
   height: 500px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-    padding: 10px 10px 0px 0;
-opacity: 0.7;
-transition: 0.5s;
+  padding: 10px 10px 0px 0;
+  opacity: 0.7;
+  transition: 0.5s;
 }
 .article img:hover {
-opacity: 1;
-cursor: pointer;
+  opacity: 1;
+  cursor: pointer;
 }
 /* batas desta  */
 
@@ -247,15 +245,15 @@ cursor: pointer;
 }
 
 #about-wrapper {
-  padding-top: 50px;
-  padding-bottom: 230px;
+  padding-top: 5px;
+  padding-bottom: 100px;
   padding-left: 5%;
   padding-right: 5%;
   text-align: center;
 }
 
 .abouts {
-  padding-top: 50px;
+  padding-top: 5px;
 }
 
 .abouts-content {
@@ -336,7 +334,7 @@ footer {
   background-color: #24262b;
   padding: 60px 60px;
   line-height: 1.5;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   width: 100%;
   height: 369px;
 }
