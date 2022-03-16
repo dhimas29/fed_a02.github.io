@@ -21,6 +21,10 @@
     width: 100%;
   }
 
+  .abouts,
+  #about-wrapper {
+    padding-top: 5px;
+  }
   .flex-list .abouts-content img {
     width: 100%;
   }
