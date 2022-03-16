@@ -195,6 +195,49 @@ header {
   width: 100%;
   color: white;
 }
+ /* awal desta */
+ .clear{
+  clear: both;
+}
+
+/* =====MAIN===== */
+.main service{
+  width: 660px;
+  float: right;
+}
+.article {
+  margin: 10px;
+  overflow: hidden;
+}
+.article h1 {
+  margin: 0px;
+  text-align: center;
+text-shadow: 3px 3px 1px silver;
+}
+.main p, .main hr {
+  width: 100%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+
+}
+.article img {
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    padding: 10px 10px 0px 0;
+opacity: 0.7;
+transition: 0.5s;
+}
+.article img:hover {
+opacity: 1;
+cursor: pointer;
+}
+/* batas desta  */
 
 .flex-list .abouts-content,
 .text-abouts,
