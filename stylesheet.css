@@ -330,7 +330,45 @@ span.menu-icon {
 ul {
   list-style: none;
 }
-
+.contact{
+  width: 600px;
+  height: 400px;
+  margin:30px auto;
+  padding:40px;
+  /*background-color: #239b76;*/
+}
+.judul-kontak{
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #5a7562;
+  margin-bottom: 30px;
+  font-size: 48px;
+}
+.form p{
+  padding-top: 35px;
+  font-size: 18px;
+  text-align: left;
+}
+span{
+  color:red;
+  float:right;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+input, textarea{
+  width: 100%;
+  /*background: #fffef9;*/
+  border: #fff;
+  border-bottom:1px solid #2f2e2e;
+}
+.send-button{
+  background: #2C5663;
+  color:#BBECFC;
+  width: 400px;
+  height: 50px;
+  margin: auto auto 100px 60px;
+}
 footer {
   background-color: #24262b;
   padding: 60px 60px;
