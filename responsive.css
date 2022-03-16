@@ -10,6 +10,12 @@
   .top-wrapper h1 {
     font-size: 32px;
   }
+  footer{
+    height:1000px;
+  }
+  .row{
+    flex-direction: column;
+  }
 }
 
 /* Untuk Smartphone */
@@ -24,6 +30,9 @@
   .abouts,
   #about-wrapper {
     padding-top: 5px;
+  }
+  #about-wrapper {
+    padding-bottom: 230px;
   }
   .flex-list .abouts-content img {
     width: 100%;
@@ -91,11 +100,26 @@
     font-size: 22px;
   }
 
-  .btn {
-    width: 100%;
+  footer{
+    height: 100%;
+  } 
+  .row{
+    display:none;
   }
+  .footer-responsive{
+    text-align:center;
+    display:block;
+  }
+  .footer-responsive h4 {
+    display:block;
+  }
+  .footer-responsive .social-links-responsive a {
 
-  .facebook {
-    margin-bottom: 10px;
+    display:inline;
+    margin:0px auto;
+  }
+  .footer-responsive .social-links-responsive a:hover {
+    display:inline;
+    margin:0px auto;
   }
 }
