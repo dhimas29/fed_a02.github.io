@@ -71,11 +71,9 @@ a {
   height: 400px;
   left: 0px;
   top: 200px;
-  background: linear-gradient(
-    91.1deg,
-    rgba(244, 246, 245, 0.9) -7.89%,
-    rgba(255, 255, 255, 0.9) 132.55%
-  );
+  background: linear-gradient(91.1deg,
+      rgba(244, 246, 245, 0.9) -7.89%,
+      rgba(255, 255, 255, 0.9) 132.55%);
 }
 
 .top-wrapper p {
@@ -194,6 +192,7 @@ header {
   width: 100%;
   color: white;
 }
+
 /* awal desta */
 .clear {
   clear: both;
@@ -204,15 +203,18 @@ header {
   width: 660px;
   float: right;
 }
+
 .article {
   margin: 10px;
   overflow: hidden;
 }
+
 .article h1 {
   margin: 0px;
   text-align: center;
   text-shadow: 3px 3px 1px silver;
 }
+
 .main p,
 .main hr {
   width: 100%;
@@ -223,6 +225,7 @@ header {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: justify;
 }
+
 .article img {
   height: 500px;
   display: block;
@@ -232,10 +235,12 @@ header {
   opacity: 0.7;
   transition: 0.5s;
 }
+
 .article img:hover {
   opacity: 1;
   cursor: pointer;
 }
+
 /* batas desta  */
 
 .flex-list .abouts-content,
@@ -330,45 +335,53 @@ span.menu-icon {
 ul {
   list-style: none;
 }
-.contact{
+
+.contact {
   width: 600px;
   height: 400px;
-  margin:30px auto;
-  padding:40px;
+  margin: 30px auto;
+  padding: 40px;
   /*background-color: #239b76;*/
 }
-.judul-kontak{
+
+.judul-kontak {
   text-align: center;
   padding-bottom: 5px;
   border-bottom: 3px solid #5a7562;
   margin-bottom: 30px;
   font-size: 48px;
 }
-.form p{
+
+.form p {
   padding-top: 35px;
   font-size: 18px;
   text-align: left;
 }
-span{
-  color:red;
-  float:right;
+
+.form span {
+  color: red;
+  float: right;
   padding-right: 40px;
   padding-top: 40px;
   padding-bottom: 10px;
 }
-input, textarea{
+
+input,
+textarea {
   width: 100%;
   /*background: #fffef9;*/
   border: #fff;
-  border-bottom:1px solid #2f2e2e;
+  border-bottom: 1px solid #2f2e2e;
 }
-.send-button{
+
+.send-button {
   background: #2C5663;
-  color:#BBECFC;
+  color: #BBECFC;
   width: 400px;
   height: 50px;
   margin: auto auto 100px 60px;
 }
+
 footer {
   background-color: #24262b;
   padding: 60px 60px;
@@ -436,6 +449,7 @@ footer {
 .maps {
   position: absolute;
 }
+
 .footer-responsive h4 {
   font-size: 28px;
   color: #ffffff;
@@ -443,9 +457,10 @@ footer {
   margin-bottom: 20px;
   font-weight: 500;
   position: relative;
-  width:100%;
-  display:none;
+  width: 100%;
+  display: none;
 }
+
 .footer-responsive .social-links-responsive a {
   display: inline-block;
   height: 50px;
@@ -456,11 +471,11 @@ footer {
   border-radius: 50%;
   color: #ffffff;
   transition: all 0.5s ease;
-  display:none;
+  display: none;
 }
 
 .footer-responsive .social-links-responsive a:hover {
   color: #24262b;
   background-color: #ffffff;
-  display:none;
+  display: none;
 }
